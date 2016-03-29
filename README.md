@@ -17,8 +17,8 @@ The semantic space of Baroni et al (2014): Don't count, predict! A systematic co
 
 ### A clean version of Wikipedia
 
-We provide a clean dump of Wikipedia, processed by the excellent *wikiextractor* (https://github.com/attardi/wikiextractor). The dump can be downloaded from http://www.clic.cimec.unitn.it/~aurelie.herbelot/enwiki-20150304-clean.tar.gz (3.8GB, dump dated March 2015). Warning: uncompressed, the directory contains 103 files totalling 11GB of data.
+We provide a clean dump of Wikipedia, processed by the excellent *wikiextractor* (https://github.com/attardi/wikiextractor). The dump can be downloaded from http://clic.cimec.unitn.it/~aurelie.herbelot/enwiki-20150304-clean.tar.gz (3.8GB, dump dated March 2015). Warning: uncompressed, the directory contains 103 files totalling 11GB of data.
 
 ### Some users
 
-We simulate network users by utilising the public log of Wikipedia edits, regularly made available at https://dumps.wikimedia.org/enwiki/latest/ (look for the https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-logging.xml.gz file). In the data/ directory of this repo, you will find a script, getUserData.py, to extract the relevant user info from the log. For convenience, we are also making an already processed version available at http://www.clic.cimec.unitn.it/~aurelie.herbelot/user-data.tar.gz (log of March 2016).
+We simulate network users by utilising the public log of Wikipedia edits, regularly made available at https://dumps.wikimedia.org/enwiki/latest/ (look for the https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-logging.xml.gz file). In the data/ directory of this repo, you will find a script, getUserData.py, to extract the relevant user info from the log. For convenience, we are also making an already processed version available at http://clic.cimec.unitn.it/~aurelie.herbelot/user-data.tar.gz (log of March 2016).
