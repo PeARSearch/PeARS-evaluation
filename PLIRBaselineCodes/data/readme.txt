@@ -1,0 +1,2 @@
+In order to prepare the data, download a wiki log file first, e.g., https://dumps.wikimedia.org/enwiki/20151201/enwiki-20151201-pages-logging.xml.gz 
+Run the main method of ParseWikiLog then to generate data about users and pages that they have edited
